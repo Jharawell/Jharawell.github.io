@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Progress Bar</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color:#dc4242;
+            color: white;
+    }
+    h1 {
+      text-align: center;
+      font-family: Georgia;
+    }
+    #progressbar {
+      width: 100%;
+      background-color: #ddd;
+    }
+    #bar {
+      margin-top: 6%;
+      width: 2%;
+      height: 30px;
+      background-color:#d72a2a;
+      text-align: center;
+      line-height: 30px;
+      color:white;
+      border-radius: 25px;
+    }
+    .custom-button {
+      height: 50px;
+      width: 20%;
+      background-color:black;
+      border-radius: 10px;
+      margin: 6%;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <h1>LOADING...</h1>
+  <div id="progressbar"></div>
+  <div id="bar">0%</div>
+  
+  <button class="custom-button" onclick="updateProgress(33)">Click Me<3</button>
+  <button class="custom-button" onclick="updateProgress(66)">Click Me<3</button>
+  <button class="custom-button" onclick="updateProgress(100)">Click Me<3</button>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    function updateProgress(targetWidth) {
+      let width = 0;
+      const elem = $('#bar');
+      const id = setInterval(frame, 10);
+      
+      function frame() {
+        if (width >= targetWidth) {
+          clearInterval(id);
+        } else {
+          width++;
+          elem.css('width', width + '%');
+          elem.text(width + '%');
+        }
+      }
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+body{
+  background-color: #d3d3d3;
+}
+
+hr{
+  height: 10px;
+  border: 0;
+  box-shadow: 0 10px 10px -10px #2a2929 inset;
+}
+
+.achievements, li{
+  font-family: 'Caudex' serif;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.desc{
+  font-family: 'Caudex' serif;
+  margin-bottom: 50px;
+  font-size: 1.3rem;
+  text-align: justify;
+  font-weight: lighter;
+}
+
+.facts{
+  font-size: 15px;
+  font-style: italic;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.header{
+  background-color: darkgrey;
+  color: #000000;
+  max-height: 250px;
+  
+}
+
+.header_1{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+}
+
+.header_2{
+  font-family: 'Caudex' serif;
+  font-weight: lighter;
+}
+.image{
+  margin-top: 15px;
+  
+}

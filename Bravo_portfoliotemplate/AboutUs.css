@@ -1,0 +1,13 @@
+.navigate{
+    display: flex;
+    margin-left: 70%;
+    font-size: 2rem;
+    padding: 10px;
+    word-spacing: 6px;
+     
+}
+
+a{
+    font-family:Verdana;
+    color: rgba(75, 75, 223, 0.796);
+}

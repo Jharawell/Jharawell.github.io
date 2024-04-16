@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "../js-basics"
+		},
+		{
+			"path": "../BravoMTW"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../BitogBravo_IntrotoJS"
+		},
+		{
+			"path": "../intro_to_js_part2"
+		},
+		{
+			"path": "../Bravo, Jharawell_Bootstrap"
+		},
+		{
+			"path": "../Bravo_Bootstrap2"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Bravo_Bootstrap2"
+	}
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<style>
+
+    body{
+        background-color: rgb(201, 186, 186);
+    }
+    .myrow{
+        font-size: 2rem;
+    }
+    .welcome_row{
+        float:left;
+        margin-left: 25%;
+        mix-blend-mode: multiply;
+    }
+    .video_row{
+        float: left;
+        margin-left:0.5%;
+    
+    }
+    blockquote{
+        height: px;
+        width: 20px;
+    }
+    html {
+        overflow-x: hidden;
+        }
+
+    table, th, td{
+    border:1px solid black;
+    }
+
+    .boot-js{
+        margin-left: 50%;
+        word-spacing: 40px;
+    }
+    
+    
+</style>
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="myrow">
+                <div class="row justify-content-end" class="m-2">
+                    <div class="m-2 p-1">
+                        <nav>
+                            <a href="HTML_Act.html">Home</a>
+                            <a href="AboutUs.html">AboutUs</a>
+                            <a href="Contact.html">Contact</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container-fluid">
+    <figure>
+        <div class="welcome_row">
+            <img src="welcome.jpg" width="730px" height="170px" alt="welcome">
+            <figcaption style="text-align: center;"><i>Welcome</i></figcaption>
+        </div>
+    </figure>
+    </div>
+    <div class="container-fluid">
+        <div class="row video_row">
+            <div class="col-sm-3 tweet_col">
+                <blockquote class="twitter-tweet">
+                    <p lang="ko" dir="ltr">RIIZE 라이즈 &#39;Love 119 (Japanese Ver.)&#39; MV<a href="https://t.co/QHmzqBZdbE">https://t.co/QHmzqBZdbE</a><a href="https://twitter.com/hashtag/RIIZE?src=hash&amp;ref_src=twsrc%5Etfw">#RIIZE</a> <a href="https://twitter.com/hashtag/%EB%9D%BC%EC%9D%B4%EC%A6%88?src=hash&amp;ref_src=twsrc%5Etfw">#라이즈</a><a href="https://twitter.com/hashtag/RISEandREALIZE?src=hash&amp;ref_src=twsrc%5Etfw">#RISEandREALIZE</a><a href="https://twitter.com/hashtag/Love119?src=hash&amp;ref_src=twsrc%5Etfw">#Love119</a> <a href="https://twitter.com/hashtag/RIIZE_Love119?src=hash&amp;ref_src=twsrc%5Etfw">#RIIZE_Love119</a> <a href="https://t.co/6C2X5AtEtq">pic.twitter.com/6C2X5AtEtq</a></p>&mdash; RIIZE (@RIIZE_official) <a href="https://twitter.com/RIIZE_official/status/1750081031473143860?ref_src=twsrc%5Etfw">January 24, 2024</a></blockquote>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+            <div class="col-md-6 video_col">
+                <div class="card" style="background-color: rgb(241, 115, 68);">
+                    <article>
+                        <h2 style="text-align: center">RIIZE</h2>
+                        <p style="text-align:center">
+                                Riize is a South Korean boy band formed by SM Entertainment.
+                                The group consists of seven members:
+                                Shotaro, Eunseok, Sungchan, Wonbin, Seunghan, Sohee, and Anton.Check out their latest single "Love 119" above.</p>
+                        <video width="100%" controls>
+                            <source src="RIIZE 라이즈 'Love 119' MV.mp4" type="video/ogg">
+                        </video>
+                </article>
+                </div>
+            </div>
+            <div class="col-md-3 image_col" >
+                    <section>
+                        <img src="starrynight.jpg"  width="330px" height="200px" margin-right="5%" alt="The Starry Night">
+                        <p id="cite"><cite>The Starry Night</cite>by Vincent Van Gogh</p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.4521097973698!2d127.04377919999999!3d37.54441070000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca46e21c25855%3A0xb969fc2b68758946!2sSM%20ENTERTAINMENT!5e0!3m2!1sen!2sph!4v1706694598237!5m2!1sen!2sph" width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <p>This is <abbr title="Star Museum">SM</abbr> Entertainment location</p>
+                        <audio controls><source src="RIIZE 라이즈 'Love 119' MV.mp3"></audio>
+                    </section>
+            </div>
+            </div> 
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                <form action="">
+                    <b><label for="fname">First Name:</label></b>
+                    <input type="text" id="fname" name="fname" required pattern="[A-Z a-z] {50}"><br><br>
+                    <b><label for="lname">Last Name:</label></b>
+                    <input type="text" id="lname" name="lname" required><br><br>
+                    <b><label for="password">Password:</label> </b>
+                    <input type="password" name="password" id="password" minlength="10" required><br><br>
+                    <b><p style="margin:0%;">Gender</p></b>
+                    <input type="radio" id="gender" name="gender">
+                    <label for="gender">Male</label><br>
+                    <input type="radio" id="gender" name="gender">
+                    <label for="gender">Female</label><br><br>
+                    <input type="reset" value="Reset">
+                    <input type="submit" value="Submit">
+                </form>
+                    <input id="checkbox" type="checkbox" />
+                    <i><label for="checkbox" style="font-size:small"> I agree to these <a href="#">Terms and Conditions</a>.</label></i>
+                
+                </div>
+                    <div class="col-md-3">
+                        <table>
+                            <tr>
+                              <th>Name</th>
+                              <th>Age</th>
+                              <th>City</th>
+                            </tr>
+                            <tr>
+                              <td>Jharawell Bravo</td>
+                              <td>19</td>
+                              <td>Baguio</td>
+                            </tr>
+                          </table>
+                    </div>
+                </div>
+            
+            <div class="container-fluid">
+                <div class="boot-js">
+                    <footer>
+                        <a href="bootstrap.html">Bootstrap</a>
+                        <a href="js.html">Javascript</a>
+                    </footer>
+            </div>
+</body>
+</html>
