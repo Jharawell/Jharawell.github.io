@@ -1313,7 +1313,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #intro {
-	background: #151515 url(background.jpg) no-repeat;
+	background: #202020 url(background.jpg) no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size:cover;
 	background-attachment: fixed;
