@@ -1313,11 +1313,9 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #intro {
-	background: #151515 url(profile.jpg.png) no-repeat center bottom;
+	background: #151515 url(background.jpg) no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size:cover;
-	background-size: 600px 550px;
-	background-position: left -100px bottom;
 	background-attachment: fixed;
 	width: 100%;
 	height: 100%;
