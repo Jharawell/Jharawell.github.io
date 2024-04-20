@@ -1354,11 +1354,11 @@ header .logo a {
 	margin-right: auto;
 	text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
-.final, a, h2{
+.final{
 	justify-content: center;
 	display: inline-block;
 	text-align: center;
-	margin-left: 300px;
+	margin-left:38%;
 	font-family: "poppins-medium", sans-serif;
 	
 }
