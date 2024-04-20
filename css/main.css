@@ -1354,6 +1354,14 @@ header .logo a {
 	margin-right: auto;
 	text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
+.final, a, h2{
+	justify-content: center;
+	display: inline-block;
+	text-align: center;
+	margin-left: 300px;
+	font-family: "poppins-medium", sans-serif;
+	
+}
 .intro-content h5 {
 	color: #FFA500;
 	font-family: "poppins-bold", sans-serif;
